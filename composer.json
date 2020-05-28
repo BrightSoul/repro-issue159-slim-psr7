@@ -1,0 +1,15 @@
+{
+    "name": "repro/issue159",
+    "require": {
+        "slim/slim": "^4.5",
+        "php-di/php-di": "^6.1",
+        "slim/psr7": "^1.1",
+        "slim/http": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "controllers",
+            "app"
+        ]
+    }
+}
